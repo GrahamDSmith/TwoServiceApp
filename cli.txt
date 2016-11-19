@@ -1,6 +1,0 @@
-az resource group create --name myacs-rg --location westeurope
-az acs create --resource-group myacs-rg --name myacs --dns-prefix myacs --generate-ssh-keys
-
-GitHub token - b27b298549a86a47ff2eeff7af3db827e666c1ea
-
-az container release create --target-name myacs --target-resource-group myacs-rg --registry-name mycontainerregistry --vsts-account-name pleasereleaseme --vsts-project-name containers --remote-access-token b27b298549a86a47ff2eeff7af3db827e666c1ea
